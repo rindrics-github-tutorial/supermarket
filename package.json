@@ -1,7 +1,4 @@
 {
-  "scripts": {
-    "test": "./node_modules/.bin/textlint okaidoku.md"
-  },
   "devDependencies": {
     "textlint": "^11.2.3",
     "textlint-rule-no-todo": "^2.0.1",
