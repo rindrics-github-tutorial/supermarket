@@ -1,0 +1,8 @@
+name: Automatic review
+on: [push]
+jobs:
+  Lint:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run textlint with reviewdog
+      uses: tsuyoshicho/action-textlint@v3.4.0
